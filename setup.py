@@ -10,6 +10,7 @@ setup(
     packages=find_packages(exclude=['docs', 'examples', 'tests']),
     zip_safe=False,
     include_package_data=True,
+    test_suite='runtests',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
